@@ -1,0 +1,25 @@
+body {
+    border: 2px soild black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    padding: 10px;
+    border:  2px solid rgb(7, 171, 177);
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: rgb(165, 219, 219);
+}
+
+.container:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.6);   
+}
+
+.container input{
+    display: inline;
+    text-align: center;
+}
